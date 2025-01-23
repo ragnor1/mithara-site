@@ -1,176 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mithara International – Specialises In Creating Solutions</title>
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
-    <link href="./output.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mithara International – Specialises In Creating Solutions</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet" />
 </head>
 <!-- component -->
+
 <body class="relative bg-gray-100  antialiased">
-    <div class=" w-full sticky top-0 z-40 bg-white shadow">
-        <nav class="relative px-4 py-4 flex justify-between items-center  w-full lg:w-[90%] mx-auto">
-          <a class="text-3xl font-bold leading-none" href="#">
-            <img src="./assets/mithara-logo.jpeg" class="w-24 h-20 object-contain" alt="Mithara Logo" style="width: 150px;">
-          </a>
-          
-          
-            <div class="lg:hidden">
-                <button class="navbar-burger flex items-center text-blue-600 p-3">
-                    <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <title>Mobile menu</title>
-                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-                    </svg>
-                </button>
-            </div>
-            <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-6">
-              <li><a class="text-sm text-gray-400 font-bold hover:text-gray-500" href="#">Home</a></li>
-              <li><a class="text-sm text-gray-400 font-bold hover:text-gray-500" href="#company">Company</a></li>
-              <li><a class="text-sm text-gray-400 font-bold hover:text-gray-500" href="#industry-sectors">Industry Sectors</a></li>
-              <li><a class="text-sm text-gray-400 font-bold hover:text-gray-500" href="#contact-us">Contact Us</a></li>
-            </ul>
-            
-        </nav>
-    </div>
-	<div class="navbar-menu relative z-50 hidden">
-		<div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-		<nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
-			<div class="flex items-center mb-3">
-				<a class="mr-auto text-3xl font-bold leading-none" href="#">
-					<svg class="h-12" alt="logo" viewBox="0 0 10240 10240">
-				        <path xmlns="http://www.w3.org/2000/svg" d="M8284 9162 c-2 -207 -55 -427 -161 -667 -147 -333 -404 -644 -733 -886 -81 -59 -247 -169 -256 -169 -3 0 -18 -9 -34 -20 -26 -19 -344 -180 -354 -180 -3 0 -29 -11 -58 -24 -227 -101 -642 -225 -973 -290 -125 -25 -397 -70 -480 -80 -22 -3 -76 -9 -120 -15 -100 -13 -142 -17 -357 -36 -29 -2 -98 -7 -153 -10 -267 -15 -436 -28 -525 -40 -14 -2 -45 -7 -70 -10 -59 -8 -99 -14 -130 -20 -14 -3 -41 -7 -60 -11 -19 -3 -39 -7 -45 -8 -5 -2 -28 -6 -50 -10 -234 -45 -617 -165 -822 -257 -23 -10 -45 -19 -48 -19 -7 0 -284 -138 -340 -170 -631 -355 -1107 -842 -1402 -1432 -159 -320 -251 -633 -308 -1056 -26 -190 -27 -635 -1 -832 3 -19 7 -59 10 -89 4 -30 11 -84 17 -120 6 -36 12 -77 14 -91 7 -43 33 -174 39 -190 3 -8 7 -28 9 -45 6 -35 52 -221 72 -285 7 -25 23 -79 35 -120 29 -99 118 -283 189 -389 67 -103 203 -244 286 -298 75 -49 178 -103 196 -103 16 0 27 16 77 110 124 231 304 529 485 800 82 124 153 227 157 230 3 3 28 36 54 74 116 167 384 497 546 671 148 160 448 450 560 542 14 12 54 45 90 75 88 73 219 172 313 238 42 29 77 57 77 62 0 5 -13 34 -29 66 -69 137 -149 405 -181 602 -7 41 -14 82 -15 90 -1 8 -6 46 -10 83 -3 37 -8 77 -10 88 -2 11 -7 65 -11 122 -3 56 -8 104 -9 107 -2 3 0 12 5 19 6 10 10 8 15 -10 10 -34 167 -346 228 -454 118 -210 319 -515 340 -515 4 0 40 18 80 40 230 128 521 255 787 343 118 40 336 102 395 113 28 5 53 11 105 23 25 5 59 12 75 15 17 3 41 8 55 11 34 7 274 43 335 50 152 18 372 29 565 29 194 0 481 -11 489 -19 2 -3 -3 -6 -12 -6 -9 -1 -20 -2 -24 -3 -33 -8 -73 -16 -98 -21 -61 -10 -264 -56 -390 -90 -649 -170 -1243 -437 -1770 -794 -60 -41 -121 -82 -134 -93 l-24 -18 124 -59 c109 -52 282 -116 404 -149 92 -26 192 -51 220 -55 17 -3 64 -12 105 -21 71 -14 151 -28 230 -41 19 -3 46 -7 60 -10 14 -2 45 -7 70 -10 25 -4 56 -8 70 -10 14 -2 53 -7 88 -10 35 -4 71 -8 81 -10 10 -2 51 -6 92 -9 101 -9 141 -14 147 -21 3 -3 -15 -5 -39 -6 -24 0 -52 -2 -62 -4 -21 -4 -139 -12 -307 -22 -242 -14 -700 -7 -880 13 -41 4 -187 27 -250 39 -125 23 -274 68 -373 111 -43 19 -81 34 -86 34 -4 0 -16 -8 -27 -17 -10 -10 -37 -33 -59 -52 -166 -141 -422 -395 -592 -586 -228 -257 -536 -672 -688 -925 -21 -36 -43 -66 -47 -68 -4 -2 -8 -7 -8 -11 0 -5 -24 -48 -54 -97 -156 -261 -493 -915 -480 -935 2 -3 47 -21 101 -38 54 -18 107 -36 118 -41 58 -25 458 -138 640 -181 118 -27 126 -29 155 -35 14 -2 45 -9 70 -14 66 -15 137 -28 300 -55 37 -7 248 -33 305 -39 28 -3 84 -9 125 -13 163 -16 792 -8 913 12 12 2 58 9 102 15 248 35 423 76 665 157 58 19 134 46 170 60 86 33 344 156 348 166 2 4 8 7 13 7 14 0 205 116 303 184 180 126 287 216 466 396 282 281 511 593 775 1055 43 75 178 347 225 455 100 227 236 602 286 790 59 220 95 364 120 485 6 28 45 245 50 275 2 14 7 41 10 60 3 19 8 49 10 65 2 17 6 46 9 65 15 100 35 262 40 335 3 39 8 89 10 112 22 225 33 803 21 1043 -3 41 -7 129 -11 195 -3 66 -8 136 -10 155 -2 19 -6 76 -10 125 -3 50 -8 101 -10 115 -2 14 -6 57 -10 95 -7 72 -12 113 -20 175 -2 19 -7 55 -10 80 -6 46 -43 295 -51 340 -2 14 -9 54 -15 90 -5 36 -16 97 -24 135 -8 39 -17 84 -20 100 -12 68 -18 97 -50 248 -19 87 -47 204 -61 260 -14 56 -27 109 -29 117 -30 147 -232 810 -253 832 -4 4 -7 -23 -8 -60z"></path>
-			        </svg>
-				</a>
-				<button class="navbar-close">
-					<svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-					</svg>
-				</button>
-			</div>
-			<div>
-				<ul>
-					<li class="mb-1">
-						<a class="block p-3 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Home</a>
-					</li>
-					<li class="mb-1">
-						<a class="block p-3 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#company">Company</a>
-					</li>
-					<li class="mb-1">
-						<a class="block p-3 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#industry-sectors">Industry Sectors</a>
-					</li>
-					<li class="mb-1">
-						<a class="block p-3 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#contact-us">Contact Us</a>
-					</li>
-				</ul>
-			</div>
-			<div class="mt-auto">
-				<p class="my-4 text-xs text-center text-gray-400">
-					<span>Copyright © 2025</span>
-				</p>
-			</div>
-		</nav>
-	</div>
-    
+  <div class=" w-full sticky top-0 z-40 bg-white shadow">
+    <nav class="relative px-4 py-4 sm:p-2 flex justify-between items-center  w-full lg:w-[90%] mx-auto">
+      <a class="text-3xl font-bold leading-none" href="#">
+        <img src="./assets/mithara-logo.jpeg" class="w-24 h-20 object-contain" alt="Mithara Logo" style="width: 150px;">
+      </a>
+
+
+      <div class="lg:hidden">
+        <button class="navbar-burger flex items-center text-blue-600 p-3">
+          <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Mobile menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+          </svg>
+        </button>
+      </div>
+      <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-6">
+        <li><a class="text-sm text-gray-400 font-bold hover:text-gray-500" href="#">Home</a></li>
+        <li><a class="text-sm text-gray-400 font-bold hover:text-gray-500" href="#company">Company</a></li>
+        <li><a class="text-sm text-gray-400 font-bold hover:text-gray-500" href="#industry-sectors">Industry Sectors</a>
+        </li>
+        <li><a class="text-sm text-gray-400 font-bold hover:text-gray-500" href="#contact-us">Contact Us</a></li>
+      </ul>
+
+    </nav>
+  </div>
+  <div class="navbar-menu relative z-50 hidden">
+    <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+    <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+      <div class="flex items-center mb-3">
+        <a class="mr-auto text-3xl font-bold leading-none" href="#">
+          <svg class="h-12" alt="logo" viewBox="0 0 10240 10240">
+            <path xmlns="http://www.w3.org/2000/svg"
+              d="M8284 9162 c-2 -207 -55 -427 -161 -667 -147 -333 -404 -644 -733 -886 -81 -59 -247 -169 -256 -169 -3 0 -18 -9 -34 -20 -26 -19 -344 -180 -354 -180 -3 0 -29 -11 -58 -24 -227 -101 -642 -225 -973 -290 -125 -25 -397 -70 -480 -80 -22 -3 -76 -9 -120 -15 -100 -13 -142 -17 -357 -36 -29 -2 -98 -7 -153 -10 -267 -15 -436 -28 -525 -40 -14 -2 -45 -7 -70 -10 -59 -8 -99 -14 -130 -20 -14 -3 -41 -7 -60 -11 -19 -3 -39 -7 -45 -8 -5 -2 -28 -6 -50 -10 -234 -45 -617 -165 -822 -257 -23 -10 -45 -19 -48 -19 -7 0 -284 -138 -340 -170 -631 -355 -1107 -842 -1402 -1432 -159 -320 -251 -633 -308 -1056 -26 -190 -27 -635 -1 -832 3 -19 7 -59 10 -89 4 -30 11 -84 17 -120 6 -36 12 -77 14 -91 7 -43 33 -174 39 -190 3 -8 7 -28 9 -45 6 -35 52 -221 72 -285 7 -25 23 -79 35 -120 29 -99 118 -283 189 -389 67 -103 203 -244 286 -298 75 -49 178 -103 196 -103 16 0 27 16 77 110 124 231 304 529 485 800 82 124 153 227 157 230 3 3 28 36 54 74 116 167 384 497 546 671 148 160 448 450 560 542 14 12 54 45 90 75 88 73 219 172 313 238 42 29 77 57 77 62 0 5 -13 34 -29 66 -69 137 -149 405 -181 602 -7 41 -14 82 -15 90 -1 8 -6 46 -10 83 -3 37 -8 77 -10 88 -2 11 -7 65 -11 122 -3 56 -8 104 -9 107 -2 3 0 12 5 19 6 10 10 8 15 -10 10 -34 167 -346 228 -454 118 -210 319 -515 340 -515 4 0 40 18 80 40 230 128 521 255 787 343 118 40 336 102 395 113 28 5 53 11 105 23 25 5 59 12 75 15 17 3 41 8 55 11 34 7 274 43 335 50 152 18 372 29 565 29 194 0 481 -11 489 -19 2 -3 -3 -6 -12 -6 -9 -1 -20 -2 -24 -3 -33 -8 -73 -16 -98 -21 -61 -10 -264 -56 -390 -90 -649 -170 -1243 -437 -1770 -794 -60 -41 -121 -82 -134 -93 l-24 -18 124 -59 c109 -52 282 -116 404 -149 92 -26 192 -51 220 -55 17 -3 64 -12 105 -21 71 -14 151 -28 230 -41 19 -3 46 -7 60 -10 14 -2 45 -7 70 -10 25 -4 56 -8 70 -10 14 -2 53 -7 88 -10 35 -4 71 -8 81 -10 10 -2 51 -6 92 -9 101 -9 141 -14 147 -21 3 -3 -15 -5 -39 -6 -24 0 -52 -2 -62 -4 -21 -4 -139 -12 -307 -22 -242 -14 -700 -7 -880 13 -41 4 -187 27 -250 39 -125 23 -274 68 -373 111 -43 19 -81 34 -86 34 -4 0 -16 -8 -27 -17 -10 -10 -37 -33 -59 -52 -166 -141 -422 -395 -592 -586 -228 -257 -536 -672 -688 -925 -21 -36 -43 -66 -47 -68 -4 -2 -8 -7 -8 -11 0 -5 -24 -48 -54 -97 -156 -261 -493 -915 -480 -935 2 -3 47 -21 101 -38 54 -18 107 -36 118 -41 58 -25 458 -138 640 -181 118 -27 126 -29 155 -35 14 -2 45 -9 70 -14 66 -15 137 -28 300 -55 37 -7 248 -33 305 -39 28 -3 84 -9 125 -13 163 -16 792 -8 913 12 12 2 58 9 102 15 248 35 423 76 665 157 58 19 134 46 170 60 86 33 344 156 348 166 2 4 8 7 13 7 14 0 205 116 303 184 180 126 287 216 466 396 282 281 511 593 775 1055 43 75 178 347 225 455 100 227 236 602 286 790 59 220 95 364 120 485 6 28 45 245 50 275 2 14 7 41 10 60 3 19 8 49 10 65 2 17 6 46 9 65 15 100 35 262 40 335 3 39 8 89 10 112 22 225 33 803 21 1043 -3 41 -7 129 -11 195 -3 66 -8 136 -10 155 -2 19 -6 76 -10 125 -3 50 -8 101 -10 115 -2 14 -6 57 -10 95 -7 72 -12 113 -20 175 -2 19 -7 55 -10 80 -6 46 -43 295 -51 340 -2 14 -9 54 -15 90 -5 36 -16 97 -24 135 -8 39 -17 84 -20 100 -12 68 -18 97 -50 248 -19 87 -47 204 -61 260 -14 56 -27 109 -29 117 -30 147 -232 810 -253 832 -4 4 -7 -23 -8 -60z">
+            </path>
+          </svg>
+        </a>
+        <button class="navbar-close">
+          <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div>
+        <ul>
+          <li class="mb-1">
+            <a class="block p-3 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              href="#">Home</a>
+          </li>
+          <li class="mb-1">
+            <a class="block p-3 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              href="#company">Company</a>
+          </li>
+          <li class="mb-1">
+            <a class="block p-3 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              href="#industry-sectors">Industry Sectors</a>
+          </li>
+          <li class="mb-1">
+            <a class="block p-3 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              href="#contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mt-auto">
+        <p class="my-4 text-xs text-center text-gray-400">
+          <span>Copyright © 2025</span>
+        </p>
+      </div>
+    </nav>
+  </div>
+
   <section class="w-full h-[89vh]">
     <div class="w-full h-full relative">
       <div class="swiper default-carousel swiper-container h-full">
         <div class="swiper-wrapper">
           <!-- Slide 1 -->
-          <div class="swiper-slide bg-cover bg-center h-full relative" style="background-image: url('./assets/27365651-excavator-wallpapers-Dark-refsol.jpg');">
-            <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6 py-8 bg-black bg-opacity-50">
+          <div class="swiper-slide bg-cover bg-center h-full relative"
+            style="background-image: url('./assets/27365651-excavator-wallpapers-Dark-refsol.jpg');">
+            <div
+              class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6 py-8 bg-black bg-opacity-50">
               <h2 class="text-5xl font-bold mb-4">Fuel Savings Up to 10%*</h2>
               <h3 class="text-lg font-semibold mb-6">Efficiently Preventing Corrosion</h3>
               <p class="text-base font-light max-w-lg">
-                * MilEx | MPH offers you significant fuel savings of up to 10%. This claim is supported by hundreds of tests carried out globally by Dorf Ketal. The result is that you can now travel more free kilometers and reduce your expenditure from the very first time you fill your tank up.
+                * MilEx | MPH offers you significant fuel savings of up to 10%. This claim is supported by hundreds of
+                tests carried out globally by Dorf Ketal. The result is that you can now travel more free kilometers and
+                reduce your expenditure from the very first time you fill your tank up.
               </p>
             </div>
           </div>
-  
+
           <!-- Slide 2 -->
-          <div class="swiper-slide bg-cover bg-center h-full relative" style="background-image: url('./assets/Scania-Truck-vehicle-transportation-mode-of-transportation-H.jpg');">
-            <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6 py-8 bg-black bg-opacity-50">
+          <div class="swiper-slide bg-cover bg-center h-full relative"
+            style="background-image: url('./assets/Scania-Truck-vehicle-transportation-mode-of-transportation-H.jpg');">
+            <div
+              class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6 py-8 bg-black bg-opacity-50">
               <h2 class="text-5xl font-bold mb-4">Reduces Maintenance Costs</h2>
               <h3 class="text-lg font-semibold mb-6">Long-Term Savings on Maintenance</h3>
               <p class="text-base font-light max-w-lg">
-                By reducing the build-up of corrosive materials in the engine and fuel system, MilEx | MPH helps lower the frequency of expensive repairs, ensuring long-term savings and better overall vehicle performance.
+                By reducing the build-up of corrosive materials in the engine and fuel system, MilEx | MPH helps lower
+                the frequency of expensive repairs, ensuring long-term savings and better overall vehicle performance.
               </p>
             </div>
           </div>
-  
+
           <!-- Slide 3 -->
-          <div class="swiper-slide bg-cover bg-center h-full relative" style="background-image: url('./assets/mclaren-p1-concept-cars-orange-car-desktop-wallpaper-09c0489.jpg');">
-            <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6 py-8 bg-black bg-opacity-50">
+          <div class="swiper-slide bg-cover bg-center h-full relative"
+            style="background-image: url('./assets/mclaren-p1-concept-cars-orange-car-desktop-wallpaper-09c0489.jpg');">
+            <div
+              class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6 py-8 bg-black bg-opacity-50">
               <h2 class="text-5xl font-bold mb-4">Environmental Impact Reduction</h2>
               <h3 class="text-lg font-semibold mb-6">Lower Emissions for a Cleaner Future</h3>
               <p class="text-base font-light max-w-lg">
-                The fuel-saving benefits of MilEx | MPH also translate into a reduction of harmful emissions, contributing to a cleaner environment and a more sustainable future for our planet.
+                The fuel-saving benefits of MilEx | MPH also translate into a reduction of harmful emissions,
+                contributing to a cleaner environment and a more sustainable future for our planet.
               </p>
             </div>
           </div>
         </div>
-  
+
         <!-- Swiper Pagination -->
         <div class="swiper-pagination"></div>
       </div>
     </div>
   </section>
-  
-  
-  
-  
 
-    <section class=" w-full h-full lg:h-[89vh] bg-slate-500" id="company">
-        <div class="bg-white h-full">
-          
-            <div class="relative isolate px-6 pt-14 lg:px-8">
-              <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
-                <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-              </div>
-              <div class="mx-auto max-w-[96%] lg:max-w-[85%] py-6 sm:py-8 lg:py-20">
-                <div class=" text-center">
-                  <h1 class="text-balance text-3xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Welcome To Mithara International</h1>
-                  <div class=" w-20 h-1 my-4 bg-red-400 mx-auto"></div>
-                  <p class="mt-5 text-justify lg:text-center text-pretty text-sm font-medium text-gray-500 sm:text-base">Mithara International ensures that contractual issues related to global supply agreements are complied with across the entire value chain. This is particularly relevant to the African Refining Industries using international technology partners. The key differentiator between Mithara INTERNATIONAL and other regional players is the ability to understand value chains and find a creative fit between local and international players in the industry, in a transparent manner. Mithara INTERNATIONAL prides itself in being able to create relationships that are based on mutual and trust and sustainable value addition across the supply chain.</p>
-                  <p class="mt-5 text-justify lg:text-center text-pretty text-sm font-medium text-gray-500 sm:text-base">Extensive interaction with international manufacturers at all levels has uniquely positioned Mithara INTERNATIONAL to provide the necessary experience and skills to handle negotiations and discussions at any level within multinationals. Experience in handling the supply of materials into on-site point of use with strategic feedback loops to support replenishment and re-order initiatives.</p>
-                </div>
-              </div>
-              <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
-                <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-              </div>
-            </div>
+
+
+
+
+  <section class=" w-full h-full lg:h-[89vh] bg-slate-500" id="company">
+    <div class="bg-white h-full">
+
+      <div class="relative isolate px-6 pt-14 lg:px-8">
+        <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+          aria-hidden="true">
+          <div
+            class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+            style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
           </div>
-          
-    </section>
-    <section class=" w-full h-full">
-        <div class="relative h-full isolate overflow-hidden bg-gray-900  sm:py-32">
-            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="" class="absolute inset-0 -z-10 size-full object-cover object-right md:object-center">
-            <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
-              <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-            </div>
-            <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
-              <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-            </div>
-            <div class=" max-w-[90%] lg:max-w-[90%] mx-auto block lg:flex  items-center">
-                <div class=" w-full lg:w-[60%] text-center lg:text-left p-3">
-                    <h2 class="text-3xl font-semibold tracking-tight text-white sm:text-6xl">Mithara International Background</h2>
-                    <div class=" w-20 h-1 my-4 bg-red-400 mx-auto lg:mx-2"></div>
-                    <h2 class="text-xl font-medium tracking-tight text-white sm:text-2xl">Over 14 years of service</h2>
-                    <p class="mt-5 lg:text-left text-justify text-pretty text-sm font-medium text-white sm:text-base">
-                        Mithara INTERNATIONAL was established in 2007. Over the years, Mithara INTERNATIONAL has also developed expertise in the SMME sector with a view to creating the environment for new talent and encouraging entrepreneurship, supporting innovation, and formulating sustainable strategies to encourage creative thinking. This has resulted in the development of several relationships with South African and International companies. The creation of sustainable supply chains while eliminating redundancies is key to the Mithara International strategy for value creation.
-                    </p>
-                    <p class="mt-5 lg:text-left text-justify text-pretty text-sm font-medium text-white sm:text-base">
-                        The Chemical distribution business is hinged upon the principle of value addition at all stages of the value chain. Mithara INTERNATIONAL has developed significant relationships within the Oil & Gas sector, specifically within the South African refineries and Petrochemical complexes. Mithara INTERNATIONAL’s global relationships include some of the world’s largest chemicals companies, i.e.:
-                    </p>
-                    <p class="mt-5 lg:text-left text-justify text-pretty text-sm font-medium text-white sm:text-base">
-                        The organisation has achieved a significant presence in the Oil and Gas Sector of Southern Africa. Mithara has become a respected service provider in these sectors with core skills in Process optimisation, design, Customised delivery options and analytical and testing services. Our onsite teams are trained to global standards in supporting the processing environments within our ecosystem.
-                    </p>
+        </div>
+        <div class="mx-auto max-w-[96%] lg:max-w-[85%] py-6 sm:py-8 lg:py-20">
+          <div class=" text-center">
+            <h1 class="text-balance text-3xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Welcome To Mithara
+              International</h1>
+            <div class=" w-20 h-1 my-4 bg-red-400 mx-auto"></div>
+            <p class="mt-5 text-justify lg:text-center text-pretty text-sm font-medium text-gray-500 sm:text-base">
+              Mithara International ensures that contractual issues related to global supply agreements are complied
+              with across the entire value chain. This is particularly relevant to the African Refining Industries using
+              international technology partners. The key differentiator between Mithara INTERNATIONAL and other regional
+              players is the ability to understand value chains and find a creative fit between local and international
+              players in the industry, in a transparent manner. Mithara INTERNATIONAL prides itself in being able to
+              create relationships that are based on mutual and trust and sustainable value addition across the supply
+              chain.</p>
+            <p class="mt-5 text-justify lg:text-center text-pretty text-sm font-medium text-gray-500 sm:text-base">
+              Extensive interaction with international manufacturers at all levels has uniquely positioned Mithara
+              INTERNATIONAL to provide the necessary experience and skills to handle negotiations and discussions at any
+              level within multinationals. Experience in handling the supply of materials into on-site point of use with
+              strategic feedback loops to support replenishment and re-order initiatives.</p>
+          </div>
+        </div>
+        <div
+          class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          aria-hidden="true">
+          <div
+            class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+            style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+          </div>
+        </div>
+      </div>
+    </div>
 
-                </div>
-                
-            </div>
-            <!-- <div class="mx-auto max-w-7xl px-6 lg:px-8">
+  </section>
+  <section class=" w-full h-full">
+    <div class="relative h-full isolate overflow-hidden bg-gray-900  sm:py-32">
+      <img
+        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
+        alt="" class="absolute inset-0 -z-10 size-full object-cover object-right md:object-center">
+      <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
+        aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
+          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+        </div>
+      </div>
+      <div
+        class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
+        aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
+          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+        </div>
+      </div>
+      <div class=" max-w-[90%] lg:max-w-[90%] mx-auto block lg:flex  items-center">
+        <div class=" w-full lg:w-[60%] text-center lg:text-left p-3">
+          <h2 class="text-3xl font-semibold tracking-tight text-white sm:text-6xl">Mithara International Background</h2>
+          <div class=" w-20 h-1 my-4 bg-red-400 mx-auto lg:mx-2"></div>
+          <h2 class="text-xl font-medium tracking-tight text-white sm:text-2xl">Over 14 years of service</h2>
+          <p class="mt-5 lg:text-left text-justify text-pretty text-sm font-medium text-white sm:text-base">
+            Mithara INTERNATIONAL was established in 2007. Over the years, Mithara INTERNATIONAL has also developed
+            expertise in the SMME sector with a view to creating the environment for new talent and encouraging
+            entrepreneurship, supporting innovation, and formulating sustainable strategies to encourage creative
+            thinking. This has resulted in the development of several relationships with South African and International
+            companies. The creation of sustainable supply chains while eliminating redundancies is key to the Mithara
+            International strategy for value creation.
+          </p>
+          <p class="mt-5 lg:text-left text-justify text-pretty text-sm font-medium text-white sm:text-base">
+            The Chemical distribution business is hinged upon the principle of value addition at all stages of the value
+            chain. Mithara INTERNATIONAL has developed significant relationships within the Oil & Gas sector,
+            specifically within the South African refineries and Petrochemical complexes. Mithara INTERNATIONAL’s global
+            relationships include some of the world’s largest chemicals companies, i.e.:
+          </p>
+          <p class="mt-5 lg:text-left text-justify text-pretty text-sm font-medium text-white sm:text-base">
+            The organisation has achieved a significant presence in the Oil and Gas Sector of Southern Africa. Mithara
+            has become a respected service provider in these sectors with core skills in Process optimisation, design,
+            Customised delivery options and analytical and testing services. Our onsite teams are trained to global
+            standards in supporting the processing environments within our ecosystem.
+          </p>
+
+        </div>
+
+      </div>
+      <!-- <div class="mx-auto max-w-7xl px-6 lg:px-8">
               <div class="mx-auto max-w-2xl lg:mx-0">
                 <h2 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Work with us</h2>
                 <p class="mt-8 text-pretty text-lg font-medium text-gray-300 sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>
@@ -202,363 +263,414 @@
                 </dl>
               </div>
             </div> -->
-          </div>
-          
-    </section>
+    </div>
 
-    <section class=" relative w-full h-full" id="industry-sectors">
-        <div class="bg-white h-full">
-            <div class="relative isolate px-6 pt-8 lg:px-8">
-              <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
-                <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-              </div>
-              <div class="mx-auto w-[96%] lg:w-[85%] py-6 sm:py-8 lg:py-20">
-                <div class=" w-full text-center">
-                  <h1 class="text-balance text-3xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Industry Sectors</h1>
-                  <div class=" w-20 h-1 my-4 bg-red-400 mx-auto"></div>
-                  <div class=" w-full lg:w-[80%] mx-auto grid grid-cols-1  lg:grid-cols-6 lg:grid-rows-8 gap-5">
-                    <div class="lg:col-span-2 lg:row-span-5">
-                        <div class="w-full h-full bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg hover:scale-105">
-                            <div class="p-5">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Laboratory Services</h5>
-                                <p class="mb-4 font-normal text-gray-400">On-site laboratory services testing and reporting for day-to-day
-                                    operations management and optimisation detailed on-site studies and trials.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:col-span-2 lg:row-span-5 lg:col-start-3">
-                        <div class="w-full h-full bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg hover:scale-105">
-                            <div class="p-5">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Material Handling & Supply Chain Management</h5>
-                                <p class="mb-4 font-normal text-gray-400">Total end to end logistics support and management for the entire value chain in the chemistries we support Global and local logistic networks.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:col-span-2 lg:row-span-5 lg:col-start-5">
-                        <div class="w-full h-full bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg hover:scale-105">
-                            <div class="p-5">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Chemicals</h5>
-                                <p class="mb-4 font-normal text-gray-400">Supply of specialised strategically relevant chemistries into refining oil and gas industries focused on innovation and technical leadership.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:col-span-3 lg:row-span-3 lg:row-start-6">
-                        <div 
-                            class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-full hover:shadow-lg hover:scale-105">
-                            
-                            <div class="flex flex-col justify-between p-4 leading-normal">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Engineering Support</h5>
-                                <p class="mb-3 font-normal text-gray-400">Supporting all engineering interventions related to the
-                                    chemistries we handle, including scoping benchmarking and redesigning</p>
-                            </div>
-                        </div>
-                    
-                    </div>
-                    <div class="lg:col-span-3 lg:row-span-3 lg:col-start-4 lg:row-start-6">
-                        <div 
-                        class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-full hover:shadow-lg hover:scale-105">
-                        
-                        <div class="flex flex-col justify-between p-4 leading-normal">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Catalyst Handling</h5>
-                            <p class="mb-3 font-normal text-gray-400">Material handling to optimise delivery mechanism directly into refinery application, with a focus on cost optimisation and liability of service.</p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-              </div>
-              <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
-                <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-              </div>
-            </div>
-          </div>
-    </section>
-    <section class=" w-full h-full bg-gradient-to-r from-cyan-900 to-blue-900">
-        <div class="mx-auto w-[96%] lg:w-[90%] py-6 sm:py-8 lg:py-20">
-            <div class=" w-full text-center">
-                <h1 class="text-balance text-3xl font-semibold tracking-tight text-white sm:text-6xl">Our Clients</h1>
-                <div class=" w-20 h-1 my-4 bg-red-400 mx-auto"></div>
-                <div class=" w-full lg:w-[95%] mx-auto grid grid-cols-1  lg:grid-cols-3  gap-8">
-                  <div class=" w-full h-36 p-6 flex justify-center items-center">
-                     <img class=" h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-40-300x202.jpg" alt="#" />
-                  </div>
-                  <div class=" w-full h-36 p-6 flex justify-center items-center">
-                      <img class=" h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-41-300x202.jpg" alt="#" />
-                  </div>
-                  <div class=" w-full h-36 p-6 flex justify-center items-center">
-                      <img class=" h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-42-300x202.jpg" alt="#" />
-                  </div>
-                  <div class=" w-full h-36 p-6 flex justify-center items-center">
-                      <img class=" h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-45-300x202.jpg" alt="#" />
-                  </div>
-                  <div class=" w-full h-36 p-6 flex justify-center items-center">
-                      <img class=" h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-46-300x202.jpg" alt="#" />
-                  </div>
-                  <div class=" w-full h-36 p-6 flex justify-center items-center">
-                      <img class=" h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-47-300x202.jpg" alt="#" />
-                  </div>
-                  <div class=" w-full h-36 p-6 flex justify-center items-center">
-                      <img class=" h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-48-300x202.jpg" alt="#" />
-                  </div>
-                  <div class=" w-full h-36 p-6 flex justify-center items-center">
-                      <img class=" h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-49-300x202.jpg" alt="#" />
-                  </div>
-                  <div class=" w-full h-36 p-6 flex justify-center items-center">
-                      <img class=" h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-50-300x202.jpg" alt="#" />
-                  </div>
-                  <div class=" w-full h-36 p-6 flex justify-center items-center">
-                      <img class=" h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-39-300x202.jpg" alt="#" />
-                  </div>
-                  <!-- <div class=" w-full h-36 p-6 flex justify-center items-center">
-                      <img class=" h-32 w-auto hover:scale-105 hover:shadow-xl" src="#" alt="#" />
-                  </div> -->
-              </div>
-            </div>
-        </div>
-    </section>
+  </section>
 
-    <section class=" relative w-full h-full">
-        <div class="bg-white h-full">
-            <div class="relative isolate px-6 pt-8 lg:px-8">
-                <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
-                    <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-                </div>
-                <div class="mx-auto w-[96%] lg:w-[85%] py-6 sm:py-8 lg:py-20">
-                    <div class=" w-full text-center">
-                        <h1 class="text-balance text-3xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Why Choose Us</h1>
-                        <div class=" w-20 h-1 my-4 bg-red-400 mx-auto"></div>
-                        <div class="relative w-[98%] h-auto lg:h-[125vh] mx-auto  my-5">
-                            <!-- Center Text -->
-                            <div class="lg:absolute lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-x-1/2 hidden lg:block lg:-translate-y-1/2 text-center">
-                              <p class="text-2xl font-bold text-gray-800">Mithara International</p>
-                            </div>
-                            <!-- Card 1 -->
-                            <div class="lg:absolute lg:top-0 lg:left-1/2 lg:transform lg:-translate-x-1/2 flex justify-center items-center my-3 lg:my-0 w-full lg:w-60 h-60 rounded-lg bg-white hover:scale-105 shadow-lg p-2">
-                                <div>
-                                    <h3 class=" text-xl font-medium text-gray-700">International Technology</h3>
-                                    <p class=" mt-4 text-gray-400">Where ever you are in the world we got you covered.</p>
-                                </div>
-                            </div>
-                            <!-- Card 2 -->
-                            <div class="lg:absolute lg:top-[20%] lg:right-0 lg:transform lg:-translate-x-1/2 flex items-center justify-center my-3 lg:my-0 w-full lg:w-60 h-60 rounded-lg bg-white hover:scale-105 shadow-lg p-2">
-                                <div>
-                                    <h3 class=" text-xl font-medium text-gray-700">Patented Chemistries</h3>
-                                    <p class=" mt-4 text-gray-400">We provide lots of benefits at a reasonable price.</p>
-                                </div>
-                            </div>
-                            <!-- Card 3 -->
-                            <div class="lg:absolute lg:bottom-[20%] lg:right-0 lg:transform lg:-translate-x-1/2 flex items-center justify-center my-3 lg:my-0 w-full lg:w-60 h-60 rounded-lg bg-white hover:scale-105 shadow-lg p-2">
-                                <div>
-                                    <h3 class=" text-xl font-medium text-gray-700">Total Value Chain Management</h3>
-                                    <p class=" mt-4 text-gray-400">We guarantee the best quality products and services.</p>
-                                </div>
-                            </div>
-                            <!-- Card 4 -->
-                            <div class="lg:absolute lg:bottom-0 lg:left-1/2 lg:transform lg:-translate-x-1/2 flex items-center justify-center my-3 lg:my-0 w-full lg:w-60 h-60 rounded-lg bg-white hover:scale-105 shadow-lg p-2">
-                                <div>
-                                    <h3 class=" text-xl font-medium text-gray-700">Cutting / Leading Edge Chemistries</h3>
-                                    <p class=" mt-4 text-gray-400">We guarantee safety for all our employees also our clients.</p>
-                                </div>
-                            </div>
-                            <!-- Card 5 -->
-                            <div class="lg:absolute lg:bottom-[20%] lg:left-0 lg:transform lg:translate-x-1/2 flex items-center justify-center my-3 lg:my-0 w-full lg:w-60 h-60 rounded-lg bg-white hover:scale-105 shadow-lg p-2">
-                                <div>
-                                    <h3 class=" text-xl font-medium text-gray-700">Expert Process Optimisation</h3>
-                                    <p class=" mt-4 text-gray-400">We have more than 20 engineer experts.</p>
-                                </div>
-                            </div>
-                            <!-- Card 6 -->
-                            <div class="lg:absolute lg:top-[20%] lg:left-0 lg:transform lg:translate-x-1/2 flex items-center justify-center my-3 lg:my-0 w-full lg:w-60 h-60 rounded-lg bg-white hover:scale-105 shadow-lg p-2">
-                                <div>
-                                    <h3 class=" text-xl font-medium text-gray-700">World-Class Technical Support</h3>
-                                    <p class=" mt-4 text-gray-400">Our best & professional agencies are always available to assist.</p>
-                                </div>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-                <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
-                    <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-                  </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="w-full h-full bg-gradient-to-r from-cyan-900 to-blue-900">
-      <div class="mx-auto w-[96%] lg:w-[90%] py-6 sm:py-8 lg:py-20">
-        <!-- Section Title -->
-        <div class="w-full text-center mb-10">
-          <h1 class="text-balance text-3xl font-semibold tracking-tight text-white sm:text-6xl">Our Featured Solutions</h1>
+  <section class="relative w-80 h-full" id="industry-sectors">
+    <div class="bg-white h-full">
+      <div class="mx-auto w-[96%] lg:w-[85%] py-6 sm:py-8 lg:py-20">
+        <div class="w-full text-center">
+          <h1 class="text-balance text-3xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Industry Sectors</h1>
           <div class="w-20 h-1 my-4 bg-red-400 mx-auto"></div>
-        </div>
-    
-        <!-- Cards Section -->
-        <div class="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <!-- Card 1 -->
-          <div class="w-full text-center bg-white rounded shadow-lg p-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#31a8de]">
-            <p class="text-lg font-semibold transition-colors duration-300 hover:text-white">Refinery Process Chemicals
-
-            </p>
-          </div>
-          <!-- Card 2 -->
-          <div class="w-full text-center bg-white rounded shadow-lg p-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#31a8de]">
-            <p class="text-lg font-semibold transition-colors duration-300 hover:text-white">Industrial Water Treatment
-            </p>
-          </div>
-          <!-- Card 3 -->
-          <div class="w-full text-center bg-white rounded shadow-lg p-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#31a8de]">
-            <p class="text-lg font-semibold transition-colors duration-300 hover:text-white">Performance Fuel Additives
-            </p>
-          </div>
-          <!-- Card 4 -->
-          <div class="w-full text-center bg-white rounded shadow-lg p-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#31a8de]">
-            <p class="text-lg font-semibold  transition-colors duration-300 hover:text-white">Lubricant Additives</p>
-          </div>
-          <!-- Card 5 -->
-          <div class="w-full text-center bg-white rounded shadow-lg p-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#31a8de]">
-            <p class="text-lg font-semibold transition-colors duration-300 hover:text-white">Break Fluids and Coolants
-            </p>
-          </div>
-          <!-- Card 6 -->
-          <div class="w-full text-center bg-white rounded shadow-lg p-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#31a8de]">
-            <p class="text-lg font-semibold transition-colors duration-300 hover:text-white">Fiscal and Brand Markers
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-
-    <section class=" relative w-full h-full" id="contact-us">
-        <div class="bg-white h-full">
-            <div class="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
-                <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true">
-                  <div class="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-                </div>
-                <div class="mx-auto max-w-[85%] text-center">
-                  <h2 class="text-balance text-3xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Contact Us</h2>
-                <div class=" w-20 h-1 my-4 bg-red-400 mx-auto"></div>
-                  <div class=" w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4 ">
-                    <div class=" w-full text-left bg-white rounded shadow-lg p-3">
-                      <p class=" text-lg font-medium mb-3">Physical Address : </p>
-                      <p class=" text-base text-gray-500">194 Titren Road </p>
-                      <p class=" text-base text-gray-500">Seaview </p>
-                      <p class=" text-base text-gray-500">Durban </p>
-                      <p class=" text-base text-gray-500">4094 </p>
-
-                    </div>
-                    <div class=" w-full text-left bg-white rounded shadow-lg p-3">
-                      <p class=" text-lg font-medium mb-3">Contact Info : </p>
-                      <p class=" text-base text-gray-500">+27 31 465 0036 </p>
-                      <p class=" text-base text-gray-500">+27312661469 | +27864029132 </p>
-                      <p class=" text-base text-gray-500">reception@mithara.com </p>
-                    </div>
-                    <div class=" w-full text-left bg-white rounded shadow-lg p-3 ">
-                      <p class=" text-lg font-medium mb-3">Postal Address : </p>
-                      <p class=" text-base text-gray-500">29 Cochrane Avenue </p>
-                      <p class=" text-base text-gray-500">Westville </p>
-                      <p class=" text-base text-gray-500">Durban </p>
-                      <p class=" text-base text-gray-500">3630 </p>
-                    </div>
+  
+          <!-- Swiper container starts here -->
+          <div class="swiper industry-container">
+            <div class="swiper-wrapper">
+              <!-- Slider items -->
+              <div class="swiper-slide">
+                <div class="card-container flex justify-center items-center">
+                  <div
+                    class="h-full bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg hover:scale-105 p-5 flex flex-col justify-between w-72">
+                    <h5 class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center">Laboratory Services</h5>
+                    <p class="font-normal text-gray-400 text-center">On-site laboratory services testing and reporting for
+                      day-to-day operations management and optimisation detailed on-site studies and trials.</p>
                   </div>
                 </div>
-                <div class="w-full lg:w-[90%] mx-auto grid grid-cols-1 gap-8 mt-16">
-                    <form action="rgokul689@gmail.com" method="POST" enctype="text/plain" class="mx-auto mt-4 max-w-xl sm:mt-6">
-                      <p class="mx-auto mb-6 text-2xl font-extrabold
-                      ">Enquiry</p>
-                      <div class="grid grid-cols-1 gap-y-6">
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6">
-                          <div>
-                            <label for="first-name" class="block text-sm font-semibold text-gray-900">First Name</label>
-                            <div class="mt-2.5">
-                              <input type="text" name="First Name" id="first-name" required class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
-                            </div>
-                          </div>
-                          <div>
-                            <label for="last-name" class="block text-sm font-semibold text-gray-900">Last Name</label>
-                            <div class="mt-2.5">
-                              <input type="text" name="Last Name" id="last-name" required class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
-                            </div>
-                          </div>
-                        </div>
-                        <div>
-                          <label for="email" class="block text-sm font-semibold text-gray-900">Email</label>
-                          <div class="mt-2.5">
-                            <input type="email" name="Email" id="email" required class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
-                          </div>
-                        </div>
-                        <div>
-                          <label for="enquiry" class="block text-sm font-semibold text-gray-900">Enquiry Request</label>
-                          <div class="mt-2.5">
-                            <textarea name="Enquiry Request" id="enquiry" rows="4" required class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"></textarea>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="mt-10">
-                        <button type="submit" class="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Submit</button>
-                      </div>
-                    </form>
+              </div>
+             
+              <div class="swiper-slide">
+                <div class="card-container flex justify-center items-center">
+                  <div
+                    class="h-full bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg hover:scale-105 p-5 flex flex-col justify-between w-72">
+                    <h5 class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center">Chemicals</h5>
+                    <p class="font-normal text-gray-400 text-center">Supply of specialised strategically relevant
+                      chemistries into refining oil and gas industries focused on innovation and technical leadership.</p>
+                  </div>
                 </div>
               </div>
-        </div>
-    </section>
-      
-
-
-    <footer class="bg-white dark:bg-gray-900">
-      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-          <div class="md:flex md:justify-between">
-            <div class="mb-6 md:mb-0">
-                <a href="#" class="flex items-center">
-                    <img src="./assets/mithara-logo-removebg.png" class="me-3" style="width: 150px;" alt=" Logo" />
-              
-                </a>
-                <span class="text-white font-medium	 text-sm">Global technology partners in the oil <br/> and gas, petrochemicals <br/>and industrial chemical sectors.
-
-                </span>
+              <div class="swiper-slide">
+                <div class="card-container flex justify-center items-center">
+                  <div
+                    class="h-full bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg hover:scale-105 p-5 flex flex-col justify-between w-72">
+                    <h5 class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center">Engineering Support</h5>
+                    <p class="font-normal text-gray-400 text-center">Supporting all engineering interventions related to
+                      the chemistries we handle, including scoping, benchmarking, and redesigning.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-container flex justify-center items-center">
+                  <div
+                    class="h-full bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg hover:scale-105 p-5 flex flex-col justify-between w-72">
+                    <h5 class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center">Catalyst Handling</h5>
+                    <p class="font-normal text-gray-400 text-center">Material handling to optimise delivery mechanisms
+                      directly into refinery application, with a focus on cost optimisation and liability of service.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-container flex justify-center items-center">
+                  <div
+                    class="h-full bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg hover:scale-105 p-5 flex flex-col justify-between w-72">
+                    <h5 class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center">Material Handling <br/> & Supply
+                      Chain Management</h5>
+                    <p class="font-normal text-gray-400 text-center">Total end-to-end logistics support and management for
+                      the entire value chain in the chemistries we support. Global and local logistic networks.</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            
-        </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="#" class="hover:underline">Mithara</a>. All Rights Reserved.
-            </span>
-            <div class="flex mt-4 sm:justify-center sm:mt-0">
-                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                          <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
-                      </svg>
-                    <span class="sr-only">Facebook page</span>
-                </a>
-                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
-                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
-                      <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
-                  </svg>
-                    <span class="sr-only">Twitter page</span>
-                </a>
-               
-            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
       </div>
-  </footer>
+      <div
+        class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+        aria-hidden="true">
+        <div
+          class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+        </div>
+      </div>
+    </div>
+  </section>
   
+  <section class="w-full h-full bg-gradient-to-r from-cyan-900 to-blue-900">
+    <div class="mx-auto w-[96%] lg:w-[90%] py-6 sm:py-8 lg:py-20">
+      <div class="w-full text-center">
+        <h1 class="text-balance text-3xl font-semibold tracking-tight text-white sm:text-6xl">Our Clients</h1>
+        <div class="w-20 h-1 my-4 bg-red-400 mx-auto"></div>
+        <div class="slider-container w-full mx-auto">
+          <div class="swiper cmpny-container">
+            <div class="swiper-wrapper">
+              <!-- Slider items -->
+              <div class="swiper-slide">
+                <img class="h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-40-300x202.jpg" alt="#" />
+              </div>
+              <div class="swiper-slide">
+                <img class="h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-41-300x202.jpg" alt="#" />
+              </div>
+              <div class="swiper-slide">
+                <img class="h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-42-300x202.jpg" alt="#" />
+              </div>
+              <div class="swiper-slide">
+                <img class="h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-45-300x202.jpg" alt="#" />
+              </div>
+              <div class="swiper-slide">
+                <img class="h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-46-300x202.jpg" alt="#" />
+              </div>
+              <div class="swiper-slide">
+                <img class="h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-47-300x202.jpg" alt="#" />
+              </div>
+              <div class="swiper-slide">
+                <img class="h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-48-300x202.jpg" alt="#" />
+              </div>
+              <div class="swiper-slide">
+                <img class="h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-49-300x202.jpg" alt="#" />
+              </div>
+              <div class="swiper-slide">
+                <img class="h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-50-300x202.jpg" alt="#" />
+              </div>
+              <div class="swiper-slide">
+                <img class="h-32 w-auto hover:scale-105 hover:shadow-xl" src="./assets/Asset-39-300x202.jpg" alt="#" />
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination mt-5"></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="relative w-full h-full">
+    <div class="bg-white h-full">
+        <div class="relative isolate px-6 pt-8 lg:px-8">
+            <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+                <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+            </div>
+            <div class="mx-auto w-[96%] lg:w-[85%] py-6 sm:py-8 lg:py-20">
+                <div class="w-full text-center">
+                    <h1 class="text-balance text-3xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Why Choose Us</h1>
+                    <div class="w-20 h-1 my-4 bg-red-400 mx-auto"></div>
+
+                    <!-- Swiper Container for "Why Choose Us" -->
+                    <div class="swiper choose-container">
+                        <div class="swiper-wrapper">
+                            <!-- Slide 1 -->
+                            <div class="swiper-slide">
+                                <div class="flex flex-col justify-between items-center w-72 h-72 bg-white rounded-lg shadow-lg hover:scale-105 p-6">
+                                    <h3 class="text-xl font-medium text-gray-700 text-center">International Technology</h3>
+                                    <p class="mt-4 text-gray-400 text-center">Wherever you are in the world, we got you covered.</p>
+                                </div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="swiper-slide">
+                                <div class="flex flex-col justify-between items-center w-72 h-72 bg-white rounded-lg shadow-lg hover:scale-105 p-6">
+                                    <h3 class="text-xl font-medium text-gray-700 text-center">Patented Chemistries</h3>
+                                    <p class="mt-4 text-gray-400 text-center">We provide lots of benefits at a reasonable <br/> price.</p>
+                                </div>
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="swiper-slide">
+                                <div class="flex flex-col justify-between items-center w-72 h-72 bg-white rounded-lg shadow-lg hover:scale-105 p-6">
+                                    <h3 class="text-xl font-medium text-gray-700 text-center">Total Value Chain Management</h3>
+                                    <p class="mt-4 text-gray-400 text-center">We guarantee the best quality products and services.</p>
+                                </div>
+                            </div>
+                            <!-- Slide 4 -->
+                            <div class="swiper-slide">
+                                <div class="flex flex-col justify-between items-center w-72 h-72 bg-white rounded-lg shadow-lg hover:scale-105 p-6">
+                                    <h3 class="text-xl font-medium text-gray-700 text-center">Cutting / Leading Edge Chemistries</h3>
+                                    <p class="mt-4 text-gray-400 text-center">We guarantee safety for all our employees and clients.</p>
+                                </div>
+                            </div>
+                            <!-- Slide 5 -->
+                            <div class="swiper-slide">
+                                <div class="flex flex-col justify-between items-center w-72 h-72 bg-white rounded-lg shadow-lg hover:scale-105 p-6">
+                                    <h3 class="text-xl font-medium text-gray-700 text-center">Expert Process Optimisation</h3>
+                                    <p class="mt-4 text-gray-400 text-center">We have more than 20 engineering <br/> experts.</p>
+                                </div>
+                            </div>
+                            <!-- Slide 6 -->
+                            <div class="swiper-slide">
+                                <div class="flex flex-col justify-between items-center w-72 h-72 bg-white rounded-lg shadow-lg hover:scale-105 p-6">
+                                    <h3 class="text-xl font-medium text-gray-700 text-center">World-Class Technical Support</h3>
+                                    <p class="mt-4 text-gray-400 text-center">Our best & professional agencies are always available to assist.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Pagination (dots) -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="w-full h-full bg-gradient-to-r from-cyan-900 to-blue-900">
+  <div class="mx-auto w-[96%] lg:w-[90%] py-6 sm:py-8 lg:py-20">
+    <!-- Section Title -->
+    <div class="w-full text-center mb-10">
+      <h1 class="text-balance text-3xl font-semibold tracking-tight text-white sm:text-6xl">Our Featured Solutions</h1>
+      <div class="w-20 h-1 my-4 bg-red-400 mx-auto"></div>
+    </div>
+
+    <!-- Swiper Container for "Our Featured Solutions" -->
+    <div class="swiper feature-container">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div
+            class="w-full text-center bg-white rounded shadow-lg p-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#31a8de]">
+            <p class="text-lg font-semibold transition-colors duration-300 hover:text-white">Refinery Process Chemicals</p>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div
+            class="w-full text-center bg-white rounded shadow-lg p-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#31a8de]">
+            <p class="text-lg font-semibold transition-colors duration-300 hover:text-white">Industrial Water Treatment</p>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <div
+            class="w-full text-center bg-white rounded shadow-lg p-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#31a8de]">
+            <p class="text-lg font-semibold transition-colors duration-300 hover:text-white">Performance Fuel Additives</p>
+          </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="swiper-slide">
+          <div
+            class="w-full text-center bg-white rounded shadow-lg p-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#31a8de]">
+            <p class="text-lg font-semibold transition-colors duration-300 hover:text-white">Lubricant Additives</p>
+          </div>
+        </div>
+        <!-- Slide 5 -->
+        <div class="swiper-slide">
+          <div
+            class="w-full text-center bg-white rounded shadow-lg p-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#31a8de]">
+            <p class="text-lg font-semibold transition-colors duration-300 hover:text-white">Break Fluids and Coolants</p>
+          </div>
+        </div>
+        <!-- Slide 6 -->
+        <div class="swiper-slide">
+          <div
+            class="w-full text-center bg-white rounded shadow-lg p-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#31a8de]">
+            <p class="text-lg font-semibold transition-colors duration-300 hover:text-white">Fiscal and Brand Markers</p>
+          </div>
+        </div>
+      </div>
+      <!-- Pagination (dots) -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+
+
+  <section class=" relative w-full h-full" id="contact-us">
+    <div class="bg-white h-full">
+      <div class="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+        <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
+          aria-hidden="true">
+          <div
+            class="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
+            style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+          </div>
+        </div>
+        <div class="mx-auto max-w-[85%] text-center">
+          <h2 class="text-balance text-3xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Contact Us</h2>
+          <div class=" w-20 h-1 my-4 bg-red-400 mx-auto"></div>
+          <div class=" w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4 ">
+            <div class=" w-full text-left bg-white rounded shadow-lg p-3">
+              <p class=" text-lg font-medium mb-3">Physical Address : </p>
+              <p class=" text-base text-gray-500">194 Titren Road </p>
+              <p class=" text-base text-gray-500">Seaview </p>
+              <p class=" text-base text-gray-500">Durban </p>
+              <p class=" text-base text-gray-500">4094 </p>
+
+            </div>
+            <div class=" w-full text-left bg-white rounded shadow-lg p-3">
+              <p class=" text-lg font-medium mb-3">Contact Info : </p>
+              <p class=" text-base text-gray-500">+27 31 465 0036 </p>
+              <p class=" text-base text-gray-500">+27312661469 | +27864029132 </p>
+              <p class=" text-base text-gray-500">reception@mithara.com </p>
+            </div>
+            <div class=" w-full text-left bg-white rounded shadow-lg p-3 ">
+              <p class=" text-lg font-medium mb-3">Postal Address : </p>
+              <p class=" text-base text-gray-500">29 Cochrane Avenue </p>
+              <p class=" text-base text-gray-500">Westville </p>
+              <p class=" text-base text-gray-500">Durban </p>
+              <p class=" text-base text-gray-500">3630 </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-[90%] mx-auto grid grid-cols-1 gap-8 mt-16">
+          <form action="rgokul689@gmail.com" method="POST" enctype="text/plain" class="mx-auto mt-4 max-w-xl sm:mt-6">
+            <p class="mx-auto mb-6 text-2xl font-extrabold
+                      ">Enquiry</p>
+            <div class="grid grid-cols-1 gap-y-6">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6">
+                <div>
+                  <label for="first-name" class="block text-sm font-semibold text-gray-900">First Name</label>
+                  <div class="mt-2.5">
+                    <input type="text" name="First Name" id="first-name" required
+                      class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
+                  </div>
+                </div>
+                <div>
+                  <label for="last-name" class="block text-sm font-semibold text-gray-900">Last Name</label>
+                  <div class="mt-2.5">
+                    <input type="text" name="Last Name" id="last-name" required
+                      class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
+                  </div>
+                </div>
+              </div>
+              <div>
+                <label for="email" class="block text-sm font-semibold text-gray-900">Email</label>
+                <div class="mt-2.5">
+                  <input type="email" name="Email" id="email" required
+                    class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
+                </div>
+              </div>
+              <div>
+                <label for="enquiry" class="block text-sm font-semibold text-gray-900">Enquiry Request</label>
+                <div class="mt-2.5">
+                  <textarea name="Enquiry Request" id="enquiry" rows="4" required
+                    class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="mt-10">
+              <button type="submit"
+                class="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="bg-white dark:bg-gray-900">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0">
+          <a href="#" class="flex items-center">
+            <img src="./assets/mithara-logo-removebg.png" class="me-3" style="width: 150px;" alt=" Logo" />
+
+          </a>
+          <span class="text-white font-medium	 text-sm">Global technology partners in the oil <br /> and gas,
+            petrochemicals <br />and industrial chemical sectors.
+
+          </span>
+        </div>
+
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="#"
+            class="hover:underline">Mithara</a>. All Rights Reserved.
+        </span>
+        <div class="flex mt-4 sm:justify-center sm:mt-0">
+          <a href="https://www.facebook.com/refsol.international" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+              viewBox="0 0 8 19">
+              <path fill-rule="evenodd"
+                d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                clip-rule="evenodd" />
+            </svg>
+            <span class="sr-only">Facebook page</span>
+          </a>
+          <a href="" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+              viewBox="0 0 20 17">
+              <path fill-rule="evenodd"
+                d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                clip-rule="evenodd" />
+            </svg>
+            <span class="sr-only">Twitter page</span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-// Burger menus
-document.addEventListener('DOMContentLoaded', function() {
+  // Burger menus
+  document.addEventListener('DOMContentLoaded', function () {
     // open
     const burger = document.querySelectorAll('.navbar-burger');
     const menu = document.querySelectorAll('.navbar-menu');
 
     if (burger.length && menu.length) {
-        for (var i = 0; i < burger.length; i++) {
-            burger[i].addEventListener('click', function() {
-                for (var j = 0; j < menu.length; j++) {
-                    menu[j].classList.toggle('hidden');
-                }
-            });
-        }
+      for (var i = 0; i < burger.length; i++) {
+        burger[i].addEventListener('click', function () {
+          for (var j = 0; j < menu.length; j++) {
+            menu[j].classList.toggle('hidden');
+          }
+        });
+      }
     }
 
     // close
@@ -566,39 +678,132 @@ document.addEventListener('DOMContentLoaded', function() {
     const backdrop = document.querySelectorAll('.navbar-backdrop');
 
     if (close.length) {
-        for (var i = 0; i < close.length; i++) {
-            close[i].addEventListener('click', function() {
-                for (var j = 0; j < menu.length; j++) {
-                    menu[j].classList.toggle('hidden');
-                }
-            });
-        }
+      for (var i = 0; i < close.length; i++) {
+        close[i].addEventListener('click', function () {
+          for (var j = 0; j < menu.length; j++) {
+            menu[j].classList.toggle('hidden');
+          }
+        });
+      }
     }
 
     if (backdrop.length) {
-        for (var i = 0; i < backdrop.length; i++) {
-            backdrop[i].addEventListener('click', function() {
-                for (var j = 0; j < menu.length; j++) {
-                    menu[j].classList.toggle('hidden');
-                }
-            });
-        }
+      for (var i = 0; i < backdrop.length; i++) {
+        backdrop[i].addEventListener('click', function () {
+          for (var j = 0; j < menu.length; j++) {
+            menu[j].classList.toggle('hidden');
+          }
+        });
+      }
     }
-});
+  });
 
 
 
-var swiper = new Swiper('.swiper-container', {
-  loop: true, // Enable looping
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  autoplay: {
-    delay: 5000, // Slide transition every 5 seconds
-  },
-  effect: 'fade', // You can add different effects like 'slide', 'fade', etc.
-});
+  var swiper = new Swiper('.swiper-container', {
+    loop: true, // Enable looping
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    autoplay: {
+      delay: 5000, // Slide transition every 5 seconds
+    },
+    effect: 'fade', // You can add different effects like 'slide', 'fade', etc.
+  });
+
+  var swiper = new Swiper('.industry-container', {
+    loop: true, // Enable looping
+    slidesPerView: 1,
+    spaceBetween: 0,
+    autoplay: {
+      delay: 3000, // Slide transition every 5 seconds
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 30
+      }
+    }
+  });
+
+  var swiper = new Swiper('.cmpny-container', {
+    loop: true, // Enable looping
+    slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        },
+        autoplay: {
+      delay: 2000, // Slide transition every 5 seconds
+    },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            1024: {
+                slidesPerView: 5,
+                spaceBetween: 30
+            }
+        }
+    });
+
+  var swiper = new Swiper('.choose-container', {
+    loop: true, // Enable looping
+    slidesPerView: 1,
+    spaceBetween: 10,
+    autoplay: {
+      delay: 3000, // Slide transition every 5 seconds
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 5
+      }
+    }
+  });
+
+  var swiper = new Swiper('.feature-container', {
+    loop: true, // Enable looping
+    autoplay: {
+      delay: 3000, // Slide transition every 5 seconds
+    },
+    slidesPerView: 1,
+        spaceBetween: 20,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            }
+        }
+
+  });
 
 </script>
 

@@ -176,6 +176,16 @@ body {
   /* 2 */
 }
 
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Styling for Cards */
+
+
 /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
@@ -1764,6 +1774,7 @@ video {
   .sm\:-top-10 {
     top: -2.5rem;
   }
+
 
   .sm\:-top-80 {
     top: -20rem;
